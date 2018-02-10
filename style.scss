@@ -23,6 +23,8 @@ body {
   color: $darkGray;
 }
 
+
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -279,13 +281,14 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
+// START Custom CSS //
+
 .svg-icon {
   filter: grayscale(100%);
-
   transition: all .2s ease-in-out;
 }
 
@@ -294,6 +297,7 @@ footer {
   transform: scale(1.1);
 }
 
+// END Custom CSS //
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
