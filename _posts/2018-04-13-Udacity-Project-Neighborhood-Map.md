@@ -7,7 +7,7 @@ published: true
 
 I just completed my latest probject - Neighborhood Map Filming Locations, a little web app that displays a map of New York using Google Maps and populates across it a number of different famous filming locations. 
 
-![Screenshot of Neighborhood Map App](https://minimalstic.github.io/images/film_locations_ss.png)
+![Screenshot of Neighborhood Map App]({{ site.baseurl }}/images/film_locations_ss.png)
 
 You can check out the repository [here](https://github.com/Minimalistic/Neighborhood_Map_Filming_Locations) or even [play around with the live app here!](http://jasonhmarsh.com/Neighborhood_Map_Filming_Locations/)
 
