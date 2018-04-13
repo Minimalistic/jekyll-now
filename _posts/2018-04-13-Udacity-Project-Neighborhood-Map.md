@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Udacity Project: Neighborhood Map
+title: Udacity Project - Neighborhood Map
 published: true
 ---
 
