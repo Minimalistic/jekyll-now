@@ -119,7 +119,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $black;
 }
 
 // Specify the color of the selection
@@ -158,7 +158,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 4px solid #80ffed63;
 
   @include mobile {
     text-align: center;
@@ -294,15 +294,16 @@ footer {
 // START Custom CSS //
 
 body {
-  /* Location of the image */
   background-image: url(images/backgrounds/4k_kayak.png);  
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /* Set a background color that will be displayed
-     while the background image is loading */
-  background-color: #14bdd3;
+  background-color: #63beca;
+}
+
+.wrapper-footer {
+  background-color:#80ffed63;
 }
 
 .svg-icon {
