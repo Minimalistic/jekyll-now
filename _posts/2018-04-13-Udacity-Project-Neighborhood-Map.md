@@ -5,7 +5,7 @@ published: true
 ---
 
 
-I just completed my latest probject - Neighborhood Map Filming Locations, a little web app that displays a map of New York using Google Maps and populates across it a number of different famous filming locations. 
+I just completed my latest project - Neighborhood Map Filming Locations, a little web app that displays a map of New York using Google Maps and populates across it a number of different famous filming locations. 
 
 ![Screenshot of Neighborhood Map App](https://minimalistic.github.io/images/film_locations_ss.png)
 
