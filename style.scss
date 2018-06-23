@@ -158,7 +158,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 4px solid #80ffed63;
 
   @include mobile {
     text-align: center;
@@ -178,7 +177,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 15px;
   }
 }
 
@@ -250,12 +249,10 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 4px solid #80ffed63;
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
-  border-bottom: none;
 }
 
 .post {
@@ -308,6 +305,30 @@ body {
 
 .svg-icon:hover {
   transform: scale(1.1);
+}
+
+.masthead {
+border: 1px dashed rgba(255, 255, 255, 0.3);
+border-top-style: none;
+border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+padding-left:1em;
+padding-right:1em;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+backdrop-filter: blur(10px);  
+-webkit-backdrop-filter: blur(10px);
+}
+
+.post {
+border: 1px dashed rgba(255, 255, 255, 0.3);
+border-top: 1px dashed #ffffffc2;
+border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+padding-left:2em;
+padding-right:2em;
+border-radius: 15px;
+margin:1em;
+backdrop-filter: blur(10px);  
+-webkit-backdrop-filter: blur(10px);
 }
 
 // END Custom CSS //
