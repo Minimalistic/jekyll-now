@@ -9,4 +9,4 @@ I'm a web developer, graphic designer, enthusiast of various tech things and the
 
 ### Contact me
 
-[public.minimalistic@gmail.com](mailto:public.minimalistic@gmail.com)
+[minimalistic.public@gmail.com](mailto:minimalistic.public@gmail.com)
