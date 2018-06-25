@@ -31,6 +31,11 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
+defaults: # This _should_ be how I'm gathering up and displaying a gallery
+  - scope:
+      path: "images/backgrounds"
+    values:
+      image: true
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
