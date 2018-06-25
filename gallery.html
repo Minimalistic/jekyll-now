@@ -13,6 +13,9 @@ published: true
     <div class="image_gallery">
         {% assign image_files = site.static_files | where: "image", true %}
         {% for myimage in image_files %}
-            <img alt="test" src={{ myimage.path}} width="25%">
-        {% endfor %}
+        <a href="{{ myimage.path }}">
+            <img alt="test" src={{ myimage.path}}>
+        </a>
+            {% endfor %}
+
     </div>
