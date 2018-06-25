@@ -1,0 +1,18 @@
+---
+layout: default
+title: Gallery
+permalink: /gallery/
+published: true
+---
+
+<!-- This is a very rudimentary, starter image gallery that is generated from
+     all images located in images/backgrounds - The accompanying 'code' to this
+     can be found in the `_config.yml` under `defaults`-->
+
+    <!-- Below is used to embed images from images/backgrounds -->
+    <div class="image_gallery">
+        {% assign image_files = site.static_files | where: "image", true %}
+        {% for myimage in image_files %}
+            <img alt="test" src={{ myimage.path}} width="25%">
+        {% endfor %}
+    </div>

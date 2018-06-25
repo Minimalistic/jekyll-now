@@ -30,6 +30,7 @@
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/resume">Resume</a>
             <a href="https://marshjasonh.myportfolio.com">Portfolio</a>
+            <a href="{{ site.baseurl }}/gallery">Test Gallery</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
@@ -40,11 +41,6 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
-    {% assign image_files = site.static_files | where: "image", true %}
-    {% for myimage in image_files %}
-    <img alt="test" src={{ myimage.path}}>
-    {% endfor %}
 
     <div class="wrapper-footer">
       <div class="container">
