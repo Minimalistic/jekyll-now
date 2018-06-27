@@ -33,7 +33,7 @@ footer-links:
 
 defaults: # This _should_ be how I'm gathering up and displaying a gallery
   - scope:
-      path: "images/backgrounds"
+      path: "images/gallery"
     values:
       image: true
 

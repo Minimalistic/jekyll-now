@@ -335,7 +335,6 @@ a {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   background-color: #0000001a;
-  
 }
 
 .image_gallery {
@@ -344,9 +343,17 @@ a {
 }
 
 .image_gallery img {
+  padding:.2em;
   object-fit: cover;
   width: 200px;
-  height:200px;
+  height: 200px;
+  transition: all 0.1s;
+  border-radius:15px;
+}
+
+.image_gallery img:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
 }
 
 // END Custom CSS //
