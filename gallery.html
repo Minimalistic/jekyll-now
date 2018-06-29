@@ -9,13 +9,24 @@ published: true
      all images located in images/backgrounds - The accompanying 'code' to this
      can be found in the `_config.yml` under `defaults`-->
 
-    <!-- Below is used to embed images from images/thumbnails -->
-    <div class="image_gallery">
-        {% assign image_files = site.static_files | where: "image", true %}
-        {% for myimage in image_files %}
-        <a href="{{ myimage.path }}">
-            <img alt="" src={{ myimage.path}}>
-        </a>
-            {% endfor %}
-
-    </div>
+<!-- Below is used to embed images from images/thumbnails -->
+<div class="test">
+    {% for image in site.static_files %}
+        {% if image.path contains '/images/art_design' %}
+            {% unless image.path contains '_thumb_' %}
+                <a href = "{{ image.path }}">
+                    <img src="{{ image.basename | append: '_thumb_' | append: image.extname }}" alt=""
+                </a>
+            {% emdunless %}
+        {% endif %}
+    {% endfor %}
+            
+</div>
+<div class="image_gallery">
+    {% assign image_files = site.static_files | where: "image", true %}
+    {% for myimage in image_files %}
+    <a href="{{ myimage.path }}">
+        <img alt="" src={{ myimage.path}}>
+    </a>
+        {% endfor %}
+</div>
