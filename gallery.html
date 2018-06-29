@@ -5,27 +5,21 @@ permalink: /gallery/
 published: true
 ---
 
-<!-- This is a very rudimentary, starter image gallery that is generated from
-     all images located in images/backgrounds - The accompanying 'code' to this
-     can be found in the `_config.yml` under `defaults`-->
+<!--finds images inside art_design, assigns original sized image to the
+    <a href> link and then replaces any string 'full' in filename with 'thumb'
+    to properly retrieve thumbnail image for display.
+-->
 
-<!-- Below is used to embed images from images/thumbnails -->
-<div class="test">
-    {% for image in site.static_files %}
-        {% if image.path contains '/images/art_design' %}
-            {% unless image.path contains '_thumb_' %}
-                <a href = "{{ image.path }}">
-                    <img src="{{ image.basename | append: '_thumb_' | append: image.extname }}" alt=""
+<div class="image_gallery">
+    {% for image in site.static_files  %}
+        {% if image.path contains 'images/gallery/art_design' %}
+            {% unless image.path contains '_thumb' %}
+                <a href="{{ image.path }}">
+                    <img src="{{ image.path | replace: 'full', 'thumb' }}" alt="">
                 </a>
             {% endunless %}
         {% endif %}
     {% endfor %}
 </div>
-<!-- <div class="image_gallery">
-    {% assign image_files = site.static_files | where: "image", true %}
-    {% for myimage in image_files %}
-    <a href="{{ myimage.path }}">
-        <img alt="" src={{ myimage.path}}>
-    </a>
-        {% endfor %}
-</div> -->
+
+<!-- todo - add clickable images that link to the fullsized image. -->

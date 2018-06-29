@@ -288,7 +288,7 @@ footer {
 // START Custom CSS //
 
 body {
-  background-image: url(images/gallery/art_design/art_full_29.jpg);  
+  background-image: url(images/gallery/art_design/art_29_full.jpg);  
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -338,22 +338,26 @@ a {
 }
 
 .image_gallery {
-  padding: 1em;
   text-align:center;
+
 }
 
 .image_gallery img {
-  padding:.2em;
+  width:200px;
+  height:200px;
   object-fit: cover;
-  width: 200px;
-  height: 200px;
-  transition: all 0.1s;
   border-radius:15px;
+  transition: all 0.2s; 
+
+
 }
 
 .image_gallery img:hover {
-  transform: scale(1.1);
   transition: all 0.2s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
 }
 
 // END Custom CSS //
