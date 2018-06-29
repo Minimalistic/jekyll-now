@@ -20,13 +20,12 @@ published: true
             {% emdunless %}
         {% endif %}
     {% endfor %}
-            
 </div>
-<div class="image_gallery">
+<!-- <div class="image_gallery">
     {% assign image_files = site.static_files | where: "image", true %}
     {% for myimage in image_files %}
     <a href="{{ myimage.path }}">
         <img alt="" src={{ myimage.path}}>
     </a>
         {% endfor %}
-</div>
+</div> -->
