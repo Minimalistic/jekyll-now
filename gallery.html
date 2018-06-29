@@ -17,7 +17,7 @@ published: true
                 <a href = "{{ image.path }}">
                     <img src="{{ image.basename | append: '_thumb_' | append: image.extname }}" alt=""
                 </a>
-            {% emdunless %}
+            {% endunless %}
         {% endif %}
     {% endfor %}
 </div>
