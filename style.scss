@@ -289,7 +289,7 @@ footer {
 
 body {
   background-image: url(images/background/kayak_isolated_background.png);  
-  background-position: center center;
+  background-position:  75%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -313,9 +313,9 @@ a {
 }
 
 .masthead {
-  border: 1px dashed rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.4);
   border-top-style: none;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   padding-left: 1em;
   padding-right: 1em;
   border-bottom-left-radius: 15px;
@@ -326,7 +326,7 @@ a {
 }
 
 .post {
-  border: 1px dashed rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.4);
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 1em;
