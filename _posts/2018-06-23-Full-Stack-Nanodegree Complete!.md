@@ -4,7 +4,7 @@ title: Fullstack Nanodegree Complete!
 published: true
 ---
 
-The last project for my Udacity Fullstack Web Developer Nanodegree program was officially approved after review - It's official!  My next step is going to be doing some looking around at the different services out there like [Hacker Rank](http://www.hackerrank.com) and [Exercism.io](http://www.exercism.io), I definitely could use some rounding out of my programming skills and those seem to be really solid on doing that.  
+The last project for my Udacity Fullstack Web Developer Nanodegree program was officially approved after review - It's official!
 
 ![Jasons Tech Interview Practice Project Cover Image](https://minimalistic.github.io/images/interview_practice_cli.gif)
 
