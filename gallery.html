@@ -11,7 +11,8 @@ published: true
 -->
 
 <div class="image_gallery">
-    {% for image in site.static_files  %}
+    {% assign images = site.static_files |sort:'images' %}
+    {% for image in images  %}
         {% if image.path contains 'images/gallery/art_design' %}
             {% unless image.path contains '_thumb' %}
                 <a href="{{ image.path }}">
@@ -23,3 +24,8 @@ published: true
 </div>
 
 <!-- todo - add clickable images that link to the fullsized image. -->
+<!-- 
+{% assign sorted_pages = site.pages | sort:"order" %}
+{% for node in sorted_pages %}
+  <li><a href="{{node.url}}">{{node.title}}</a></li>
+{% endfor %} -->
