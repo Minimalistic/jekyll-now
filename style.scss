@@ -309,13 +309,13 @@ body {
 }
 
 a {
-  color: #961134;
+  color: #971336;
 }
 
 .masthead {
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff7e;
   border-top-style: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid #0000002a;
   padding-left: 1em;
   padding-right: 1em;
   border-bottom-left-radius: 15px;
@@ -326,7 +326,9 @@ a {
 }
 
 .post {
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff7e;
+  border-top: 1px solid #ffffffd3;
+  border-bottom: 1px solid #0000002a;
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 1em;
