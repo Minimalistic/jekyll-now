@@ -1,4 +1,9 @@
-## iPad Pro and Procreate
+---
+layout: post
+title: iPad Pro and Procreate
+published: true
+---
+
 
 Been trying out some new art styles and ideas:
 
