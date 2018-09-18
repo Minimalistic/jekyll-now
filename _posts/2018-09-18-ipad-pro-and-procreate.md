@@ -4,8 +4,6 @@ Been trying out some new art styles and ideas:
 
 ![A squid named Squiddly](https://minimalistic.github.io/images/Squiddly_-_Color_Corrected-tiny.jpg)
 This little guy's name is Squiddly...
-![Jasons Tech Interview Practice Project Cover Image](https://minimalistic.github.io/images/interview_practice_cli.gif)
-
 
 ![Style test - an aquatic plant](https://minimalistic.github.io/images/alt-long-leaf-weed-tiny.jpg)
 Testing out drawing style - one of the magic tools I'm finding is to do an alpha lock on an existing drawing/shape and then go on to shade/texture it.  
