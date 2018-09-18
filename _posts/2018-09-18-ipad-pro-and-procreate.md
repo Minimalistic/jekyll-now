@@ -14,7 +14,4 @@ The level of brush detail you can express using Procreate and the Apple Pencil i
 ![A stylized Northern Pike hanging out in some long weeds.](https://minimalistic.github.io/images/Happy-Predator_tiny.jpg)
 
 Here's also the time-lapse of the Northern Pike drawing
-[![](http://img.youtube.com/vi/OHox7dsdeHo/0.jpg)](http://www.youtube.com/watch?v=OHox7dsdeHo "Happy Predator")
-
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OHox7dsdeHo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
